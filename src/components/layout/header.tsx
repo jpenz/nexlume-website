@@ -8,6 +8,19 @@ import { Button } from "@/components/ui/button";
 
 const navigation = [
   {
+    name: "Shop",
+    href: "/shop",
+    children: [
+      { name: "All Products", href: "/shop" },
+      { name: "Patch Cords & Cables", href: "/shop/patch-cords" },
+      { name: "Transceivers & Optics", href: "/shop/transceivers" },
+      { name: "Infrastructure & Panels", href: "/shop/patch-panels" },
+      { name: "Adapters & Passives", href: "/shop/adapters" },
+      { name: "Tools & Test Equipment", href: "/shop/test-equipment" },
+      { name: "Bundles & Kits", href: "/shop?tab=bundles" },
+    ],
+  },
+  {
     name: "Products",
     href: "/products",
     children: [
