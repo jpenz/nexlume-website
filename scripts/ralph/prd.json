@@ -1,0 +1,356 @@
+{
+  "project": "Nexlume E-Commerce Platform",
+  "version": "1.0",
+  "description": "B2B fiber optic cable assembly e-commerce platform with AI-powered plan analysis",
+  "user_stories": [
+    {
+      "id": "NX-001",
+      "phase": 1,
+      "title": "Design System Foundation",
+      "description": "Build comprehensive design system with all UI primitives: Button, Card, Badge, Input, Dialog, Dropdown, Select, Tabs, Accordion, Tooltip. All components must support dark theme, be accessible (WCAG 2.1 AA), and have Storybook-quality documentation via tests.",
+      "acceptance_criteria": [
+        "All 10 UI components implemented with variants",
+        "Tailwind-based, consistent with design tokens (#0A0A0A, #141414, #262626, #5E6AD2)",
+        "Keyboard accessible, ARIA labels",
+        "Tests for each component",
+        "Exports via barrel files (index.ts)"
+      ],
+      "priority": "critical",
+      "estimate_hours": 4
+    },
+    {
+      "id": "NX-002",
+      "phase": 1,
+      "title": "Responsive Header & Navigation",
+      "description": "Production-ready header with mega-menu for Products and Solutions, mobile hamburger nav with animated transitions, search trigger (⌘K), and sticky positioning with backdrop blur.",
+      "acceptance_criteria": [
+        "Mega-menu shows product categories with icons and descriptions",
+        "Mobile nav with Framer Motion slide animation",
+        "Search shortcut placeholder (⌘K)",
+        "Sticky header with backdrop blur on scroll",
+        "Active link highlighting",
+        "Tests for navigation rendering and mobile toggle"
+      ],
+      "priority": "critical",
+      "estimate_hours": 3
+    },
+    {
+      "id": "NX-003",
+      "phase": 1,
+      "title": "Homepage — Award-Winning Design",
+      "description": "Complete homepage with hero, trust bar, product categories grid, AI plan analysis feature section, value propositions, and CTA. Must be visually stunning, fast-loading, and fully responsive.",
+      "acceptance_criteria": [
+        "Hero with gradient background, animated badge, and dual CTAs",
+        "Trust bar with certification badges",
+        "6 product category cards with hover effects",
+        "AI plan analysis feature section with stats preview",
+        "4 value proposition cards",
+        "Bottom CTA section",
+        "Framer Motion scroll animations",
+        "Lighthouse performance > 90",
+        "Tests for all sections rendering"
+      ],
+      "priority": "critical",
+      "estimate_hours": 4
+    },
+    {
+      "id": "NX-004",
+      "phase": 1,
+      "title": "Product Listing Page with Mock Data",
+      "description": "Product catalog page with grid/list view, category filtering sidebar, sort options, and product cards. Use mock data (20 products) until BigCommerce integration.",
+      "acceptance_criteria": [
+        "Product grid with responsive columns (1/2/3/4)",
+        "Product cards with image, name, price, specs badges, stock status",
+        "Left sidebar with filter groups (fiber type, connector, category, price range)",
+        "Sort dropdown (relevance, price, newest)",
+        "Grid/list view toggle",
+        "Mock data with 20 realistic fiber optic products",
+        "Pagination or infinite scroll",
+        "Tests for filtering and sorting logic"
+      ],
+      "priority": "high",
+      "estimate_hours": 5
+    },
+    {
+      "id": "NX-005",
+      "phase": 1,
+      "title": "Product Detail Page",
+      "description": "Full product detail page with image gallery, specs table, pricing, stock status, related products, and CTA to configure similar cable.",
+      "acceptance_criteria": [
+        "Image gallery with thumbnails",
+        "Structured specs table",
+        "Price display with stock status and lead time",
+        "Add to cart / Request quote buttons",
+        "Tabs: Specifications | Documentation | Compatibility",
+        "Related products carousel",
+        "Breadcrumb navigation",
+        "Schema.org Product markup",
+        "Tests for page rendering with mock data"
+      ],
+      "priority": "high",
+      "estimate_hours": 4
+    },
+    {
+      "id": "NX-006",
+      "phase": 2,
+      "title": "Configurator — Step 1-2: Application & Fiber Type",
+      "description": "First two steps of the cable assembly configurator with full selection UI, animated transitions, and configuration state management.",
+      "acceptance_criteria": [
+        "Application selection grid (6 options with icons and descriptions)",
+        "Fiber type selection with color indicators and specs",
+        "React state management for configuration",
+        "Step progress indicator with completed state",
+        "Framer Motion transitions between steps",
+        "URL state sync (?step=1&app=data-center)",
+        "Tests for state management and step navigation"
+      ],
+      "priority": "critical",
+      "estimate_hours": 4
+    },
+    {
+      "id": "NX-007",
+      "phase": 2,
+      "title": "Configurator — Steps 3-4: Connector Selection",
+      "description": "Connector A and B selection with compatibility filtering. Connector B options filter based on Connector A selection and fiber type.",
+      "acceptance_criteria": [
+        "Connector selection grid with connector images/icons",
+        "Polish type selection (UPC/APC) for applicable connectors",
+        "Compatibility filtering: Connector B filters based on A + fiber type",
+        "Incompatible options shown as disabled with tooltip explanation",
+        "Configuration summary updates in real-time",
+        "Tests for compatibility logic"
+      ],
+      "priority": "critical",
+      "estimate_hours": 4
+    },
+    {
+      "id": "NX-008",
+      "phase": 2,
+      "title": "Configurator — Step 5: Cable Specifications",
+      "description": "Cable specification step with length input, jacket type selection, color picker, and fiber count selector.",
+      "acceptance_criteria": [
+        "Length input with presets (1m, 3m, 5m, 10m, 25m, 50m, custom)",
+        "Jacket type selection (PVC, LSZH, Plenum, Armored) with descriptions",
+        "Color picker with standard cable colors",
+        "Fiber count selector (1, 2, 4, 6, 8, 12, 24, 48, 72, 96, 144, 288)",
+        "Validation: min/max length per jacket type",
+        "Tests for validation logic"
+      ],
+      "priority": "critical",
+      "estimate_hours": 3
+    },
+    {
+      "id": "NX-009",
+      "phase": 2,
+      "title": "Configurator — Step 6: Review & SVG Preview",
+      "description": "Review step with animated 2D SVG cable preview, full configuration summary, and pricing placeholder.",
+      "acceptance_criteria": [
+        "Animated SVG cable diagram showing connectors, cable, and specs",
+        "SVG updates dynamically based on configuration (colors, connector shapes)",
+        "Full configuration summary table",
+        "Volume break pricing table (placeholder data)",
+        "Share configuration button (copies URL)",
+        "Save configuration button (placeholder)",
+        "Add to cart / Request quote CTAs",
+        "Exportable PDF summary (placeholder)",
+        "Tests for SVG rendering and summary display"
+      ],
+      "priority": "critical",
+      "estimate_hours": 5
+    },
+    {
+      "id": "NX-010",
+      "phase": 2,
+      "title": "Configurator — Pricing Engine",
+      "description": "Real-time pricing engine that calculates cable assembly price based on configuration. Uses rule-based pricing with volume breaks.",
+      "acceptance_criteria": [
+        "Base price per fiber type + connector combination",
+        "Length multiplier (per-meter pricing)",
+        "Jacket type surcharge (Armored > Plenum > LSZH > PVC)",
+        "Fiber count multiplier",
+        "Volume break calculation (1, 10, 50, 100, 500, 1000)",
+        "Lead time estimation based on complexity",
+        "API route: POST /api/configurator/price",
+        "Tests for pricing calculations with known inputs/outputs"
+      ],
+      "priority": "high",
+      "estimate_hours": 4
+    },
+    {
+      "id": "NX-011",
+      "phase": 2,
+      "title": "AI Plan Upload — File Handling",
+      "description": "Robust file upload system with drag-and-drop, file type validation, multi-file support, and upload progress tracking.",
+      "acceptance_criteria": [
+        "Drag-and-drop zone with visual feedback",
+        "File type validation (PDF, DWG, DXF, PNG, JPG, XLSX, CSV, VSDX, DOCX, PPTX)",
+        "File size validation (max 50MB per file, 200MB total)",
+        "Multi-file upload with individual progress bars",
+        "File list with remove capability",
+        "Thumbnail preview for images",
+        "Error handling for invalid files",
+        "Tests for file validation logic"
+      ],
+      "priority": "high",
+      "estimate_hours": 3
+    },
+    {
+      "id": "NX-012",
+      "phase": 2,
+      "title": "AI Plan Analysis — Claude Vision Integration",
+      "description": "Backend API that sends uploaded files to Claude Vision for analysis. Extracts fiber connection requirements from plans and returns structured data.",
+      "acceptance_criteria": [
+        "API route: POST /api/ai-quote/analyze",
+        "File preprocessing: PDF to images, CAD to images",
+        "Claude Vision API call with structured prompt",
+        "Pydantic-style response parsing (via zod)",
+        "Returns: connections list, zones, quantities, fiber types, lengths",
+        "Error handling for API failures",
+        "Rate limiting (max 10 analyses per hour per IP)",
+        "Tests with mock Claude responses"
+      ],
+      "priority": "high",
+      "estimate_hours": 6
+    },
+    {
+      "id": "NX-013",
+      "phase": 2,
+      "title": "AI Plan Analysis — Results UI",
+      "description": "Interactive results display showing AI analysis with editable quantities, zone breakdown, and quote generation.",
+      "acceptance_criteria": [
+        "Summary stats cards (total connections, zones, estimated total)",
+        "Itemized table with editable quantities",
+        "Zone/floor breakdown accordion",
+        "Confidence indicator per item",
+        "Inline editing of fiber type, connectors, length",
+        "Real-time price recalculation on edit",
+        "Export to PDF quote",
+        "Convert to order CTA",
+        "Tests for editing and recalculation"
+      ],
+      "priority": "high",
+      "estimate_hours": 5
+    },
+    {
+      "id": "NX-014",
+      "phase": 2,
+      "title": "Customer Portal — Account Dashboard",
+      "description": "Customer account dashboard with order history, quote management, saved configurations, and account settings.",
+      "acceptance_criteria": [
+        "Dashboard with recent orders, pending quotes, saved configs summary",
+        "Order history with status badges and tracking links",
+        "Quote list with status (draft, pending, approved, expired)",
+        "Saved configurations library",
+        "Account settings (company info, users, billing)",
+        "Responsive sidebar navigation",
+        "Tests for dashboard data display"
+      ],
+      "priority": "medium",
+      "estimate_hours": 5
+    },
+    {
+      "id": "NX-015",
+      "phase": 3,
+      "title": "Algolia Search Integration",
+      "description": "Full Algolia search with instant results, faceted filtering, and typo tolerance across the product catalog.",
+      "acceptance_criteria": [
+        "Algolia InstantSearch integration",
+        "Command palette search (⌘K) with overlay",
+        "Faceted filters: fiber type, connector, category, price, certification",
+        "Typo tolerance and synonym support",
+        "Part number exact search",
+        "Search results with product thumbnails",
+        "Recent searches per user",
+        "Tests for search configuration"
+      ],
+      "priority": "high",
+      "estimate_hours": 5
+    },
+    {
+      "id": "NX-016",
+      "phase": 3,
+      "title": "Programmatic SEO Pages",
+      "description": "Auto-generated product pages for every cable configuration combination. Template-based with dynamic content.",
+      "acceptance_criteria": [
+        "Page template: /cable-assemblies/{fiber}-{connA}-to-{connB}-{length}",
+        "Generate pages for top 100 configurations initially",
+        "Each page has: specs, price, configurator CTA, related, FAQ schema",
+        "Schema.org Product markup",
+        "Proper canonical URLs",
+        "Static generation (SSG) for performance",
+        "XML sitemap generation",
+        "Tests for page generation logic"
+      ],
+      "priority": "high",
+      "estimate_hours": 5
+    },
+    {
+      "id": "NX-017",
+      "phase": 3,
+      "title": "Solutions Pages by Industry",
+      "description": "Industry-specific solution pages for Data Centers, 5G, FTTH, Enterprise, and Industrial with targeted content and product recommendations.",
+      "acceptance_criteria": [
+        "5 industry pages with unique hero, challenges, solutions, product recs",
+        "Each page: hero image, industry overview, key challenges, Nexlume solutions",
+        "Recommended products grid per industry",
+        "Case study placeholder per industry",
+        "CTA to configurator pre-filtered by industry",
+        "SEO-optimized content",
+        "Tests for page rendering"
+      ],
+      "priority": "medium",
+      "estimate_hours": 4
+    },
+    {
+      "id": "NX-018",
+      "phase": 3,
+      "title": "Technical Resources Library",
+      "description": "Resource center with application guides, datasheets, installation videos, and compatibility tools.",
+      "acceptance_criteria": [
+        "Resource listing with category filters (guides, datasheets, videos, tools)",
+        "Search within resources",
+        "Resource detail page with content + related resources",
+        "PDF viewer for datasheets",
+        "Video embed support (YouTube)",
+        "Gated downloads (email capture for whitepapers)",
+        "Tests for resource filtering"
+      ],
+      "priority": "medium",
+      "estimate_hours": 4
+    },
+    {
+      "id": "NX-019",
+      "phase": 1,
+      "title": "BigCommerce B2B API Integration",
+      "description": "Core BigCommerce integration: product catalog sync, cart management, and checkout flow via GraphQL Storefront API.",
+      "acceptance_criteria": [
+        "BigCommerce GraphQL client setup",
+        "Product listing query with pagination",
+        "Product detail query with variants and images",
+        "Cart creation and management",
+        "Checkout redirect to BigCommerce hosted checkout",
+        "Environment variables for store hash and tokens",
+        "Error handling and retry logic",
+        "Tests with mocked GraphQL responses"
+      ],
+      "priority": "critical",
+      "estimate_hours": 6
+    },
+    {
+      "id": "NX-020",
+      "phase": 2,
+      "title": "QuickBooks Integration via n8n",
+      "description": "Order and inventory sync between BigCommerce and QuickBooks Enterprise via n8n workflows.",
+      "acceptance_criteria": [
+        "n8n workflow: BigCommerce order webhook → QuickBooks invoice creation",
+        "n8n workflow: QuickBooks inventory levels → BigCommerce stock update (every 15 min)",
+        "Error handling with Slack/Telegram notifications",
+        "Idempotent processing (no duplicate orders)",
+        "Manual sync trigger for initial load",
+        "Documentation for n8n workflow setup"
+      ],
+      "priority": "high",
+      "estimate_hours": 5
+    }
+  ]
+}
