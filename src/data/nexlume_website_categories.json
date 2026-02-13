@@ -1,0 +1,651 @@
+{
+  "categories": [
+    {
+      "name": "Fiber Optic Cables",
+      "slug": "fiber-optic-cables",
+      "icon": "plug",
+      "subcategories": [
+        {
+          "name": "Patch Cords (Singlemode OS2)",
+          "slug": "patch-cords-singlemode-os2",
+          "estimatedSKUs": "40-50",
+          "priceRange": "$2-$22",
+          "topProducts": [
+            "LC-LC Duplex OS2 1m",
+            "LC-LC Duplex OS2 3m",
+            "SC-SC Duplex OS2 3m",
+            "SC-LC Duplex OS2 2m",
+            "SC/APC-SC/APC Simplex OS2 1m"
+          ]
+        },
+        {
+          "name": "Patch Cords (Multimode OM3/OM4/OM5)",
+          "slug": "patch-cords-multimode",
+          "estimatedSKUs": "35-45",
+          "priceRange": "$3-$28",
+          "topProducts": [
+            "LC-LC Duplex OM4 1m",
+            "LC-LC Duplex OM4 3m",
+            "LC-LC Duplex OM3 2m",
+            "SC-SC Duplex OM3 3m",
+            "LC-LC Duplex OM5 3m"
+          ]
+        },
+        {
+          "name": "MPO/MTP Trunk Cables",
+          "slug": "mpo-mtp-trunk-cables",
+          "estimatedSKUs": "15-20",
+          "priceRange": "$25-$130",
+          "topProducts": [
+            "MPO-12 OM4 Trunk Cable 3m",
+            "MPO-12 OS2 Trunk Cable 5m",
+            "MPO-24 OM4 Trunk Cable 10m",
+            "MPO-12 OM4 Trunk Cable 15m"
+          ]
+        },
+        {
+          "name": "MPO-to-LC Breakout Cables",
+          "slug": "mpo-to-lc-breakout-cables",
+          "estimatedSKUs": "8-12",
+          "priceRange": "$35-$90",
+          "topProducts": [
+            "MPO-to-LC Breakout 12F OM4 1m",
+            "MPO-to-LC Breakout 12F OS2 2m",
+            "MPO-to-LC Breakout 24F OM4 3m"
+          ]
+        },
+        {
+          "name": "Pigtails (SM & MM)",
+          "slug": "pigtails",
+          "estimatedSKUs": "15-20",
+          "priceRange": "$1.50-$5",
+          "topProducts": [
+            "LC/UPC SM Pigtail Set (12-color, 1m)",
+            "SC/APC SM Pigtail Set (12-color, 1m)",
+            "SC/UPC SM Pigtail 1.5m",
+            "LC/UPC OM3 Pigtail 1m"
+          ]
+        },
+        {
+          "name": "Armored Fiber Cables",
+          "slug": "armored-fiber-cables",
+          "estimatedSKUs": "8-12",
+          "priceRange": "$2-$13.50/ft",
+          "topProducts": [
+            "12F SM OS2 ILA Armored 1000ft",
+            "12F OM4 ILA Armored 1000ft",
+            "6F SM OS2 Armored Indoor/Outdoor"
+          ]
+        },
+        {
+          "name": "Bulk Fiber Cable (Indoor)",
+          "slug": "bulk-fiber-cable-indoor",
+          "estimatedSKUs": "20-30",
+          "priceRange": "$0.25-$4.50/ft",
+          "topProducts": [
+            "2F SM OS2 Tight-Buffer Riser 1000ft",
+            "2F SM OS2 Tight-Buffer Plenum 1000ft",
+            "12F SM OS2 Distribution Riser 1000ft",
+            "6F SM OS2 Riser 1000ft",
+            "12F OM4 Distribution Plenum 1000ft"
+          ]
+        },
+        {
+          "name": "Bulk Fiber Cable (Outdoor / Direct Burial)",
+          "slug": "bulk-fiber-cable-outdoor",
+          "estimatedSKUs": "10-15",
+          "priceRange": "$0.50-$2.50/ft",
+          "topProducts": [
+            "6F SM OS2 Indoor/Outdoor 1000ft",
+            "12F SM OS2 Indoor/Outdoor 1000ft",
+            "12F SM OS2 Direct Burial CST 1000ft"
+          ]
+        },
+        {
+          "name": "FTTH Drop Cable",
+          "slug": "ftth-drop-cable",
+          "estimatedSKUs": "10-15",
+          "priceRange": "$0.04-$0.40/m",
+          "topProducts": [
+            "1F Flat Drop G.657A2 Toneable PE",
+            "2F Flat Drop G.657A2 Figure-8",
+            "Pre-Connectorized Drop SC/APC 30m",
+            "Armored Drop Cable 1F G.657A2"
+          ]
+        },
+        {
+          "name": "DAC & AOC Cables",
+          "slug": "dac-aoc-cables",
+          "estimatedSKUs": "15-20",
+          "priceRange": "$10-$150",
+          "topProducts": [
+            "10G SFP+ DAC Cable 1m Cisco",
+            "10G SFP+ DAC Cable 3m Cisco",
+            "25G SFP28 DAC Cable 2m",
+            "10G SFP+ AOC Cable 10m",
+            "100G QSFP28 DAC Cable 3m"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transceivers & Optics",
+      "slug": "transceivers-optics",
+      "icon": "bolt",
+      "badge": "TOP MARGIN",
+      "subcategories": [
+        {
+          "name": "1G SFP Transceivers",
+          "slug": "1g-sfp-transceivers",
+          "estimatedSKUs": "12-18",
+          "priceRange": "$15-$50",
+          "topProducts": [
+            "1G SFP LX Cisco GLC-LH-SMD Compatible",
+            "1G SFP SX Cisco GLC-SX-MM Compatible",
+            "1G SFP ZX SM 80km",
+            "1G SFP RJ45 Copper Cisco Compatible"
+          ]
+        },
+        {
+          "name": "10G SFP+ Transceivers",
+          "slug": "10g-sfp-plus-transceivers",
+          "estimatedSKUs": "18-24",
+          "priceRange": "$25-$80",
+          "topProducts": [
+            "10G SFP+ SR Cisco SFP-10G-SR Compatible",
+            "10G SFP+ LR Cisco SFP-10G-LR Compatible",
+            "10G SFP+ SR Arista Compatible",
+            "10G SFP+ LR Juniper Compatible",
+            "10G SFP+ ER SM 40km"
+          ]
+        },
+        {
+          "name": "25G SFP28 Transceivers",
+          "slug": "25g-sfp28-transceivers",
+          "estimatedSKUs": "8-12",
+          "priceRange": "$30-$100",
+          "topProducts": [
+            "25G SFP28 SR Cisco Compatible",
+            "25G SFP28 LR Cisco Compatible",
+            "25G SFP28 SR Arista Compatible"
+          ]
+        },
+        {
+          "name": "40G QSFP+ Transceivers",
+          "slug": "40g-qsfp-plus-transceivers",
+          "estimatedSKUs": "6-10",
+          "priceRange": "$80-$200",
+          "topProducts": [
+            "40G QSFP+ SR4 Cisco Compatible",
+            "40G QSFP+ LR4 Cisco Compatible",
+            "40G QSFP+ SR4 Juniper Compatible"
+          ]
+        },
+        {
+          "name": "100G QSFP28 Transceivers",
+          "slug": "100g-qsfp28-transceivers",
+          "estimatedSKUs": "12-18",
+          "priceRange": "$200-$500",
+          "topProducts": [
+            "100G QSFP28 SR4 Cisco Compatible",
+            "100G QSFP28 LR4 Cisco Compatible",
+            "100G QSFP28 CWDM4 SM 2km",
+            "100G QSFP28 DR SM 500m"
+          ]
+        },
+        {
+          "name": "400G QSFP-DD Transceivers",
+          "slug": "400g-qsfp-dd-transceivers",
+          "estimatedSKUs": "8-12",
+          "priceRange": "$800-$2,200",
+          "badge": "NEW",
+          "topProducts": [
+            "400G QSFP-DD DR4 Cisco Compatible",
+            "400G QSFP-DD FR4 SM 2km",
+            "400G QSFP-DD SR8 MM 100m",
+            "400G QSFP-DD LR4 SM 10km"
+          ]
+        },
+        {
+          "name": "800G OSFP Transceivers",
+          "slug": "800g-osfp-transceivers",
+          "estimatedSKUs": "4-8",
+          "priceRange": "$2,000-$5,000",
+          "badge": "NEW",
+          "topProducts": [
+            "800G OSFP SR8 MM 50m",
+            "800G OSFP DR8 SM 500m"
+          ]
+        },
+        {
+          "name": "Media Converters",
+          "slug": "media-converters",
+          "estimatedSKUs": "15-25",
+          "priceRange": "$20-$400",
+          "topProducts": [
+            "1G Media Converter SM SC to RJ45 20km",
+            "1G Media Converter MM SC to RJ45 550m",
+            "10G Media Converter SFP+ Based",
+            "PoE Media Converter 1G SM/MM",
+            "WDM BiDi Media Converter 1G"
+          ]
+        },
+        {
+          "name": "Shop by Switch Brand",
+          "slug": "shop-by-switch-brand",
+          "estimatedSKUs": null,
+          "priceRange": null,
+          "description": "Filter all transceivers by Cisco, Juniper, or Arista compatibility",
+          "topProducts": [
+            "Cisco Compatible Transceivers",
+            "Juniper Compatible Transceivers",
+            "Arista Compatible Transceivers"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Structured Cabling & Infrastructure",
+      "slug": "structured-cabling-infrastructure",
+      "icon": "building",
+      "subcategories": [
+        {
+          "name": "Rack-Mount Fiber Patch Panels",
+          "slug": "rack-mount-fiber-patch-panels",
+          "estimatedSKUs": "20-30",
+          "priceRange": "$25-$500",
+          "topProducts": [
+            "24-Port LC Duplex Rack-Mount Panel Loaded SM",
+            "24-Port LC Duplex Rack-Mount Panel Empty",
+            "48-Port LC Duplex Rack-Mount Panel Loaded",
+            "12-Port LC Duplex Rack-Mount Panel Loaded",
+            "96-Port LC Duplex Panel 4U"
+          ]
+        },
+        {
+          "name": "Wall-Mount Fiber Enclosures",
+          "slug": "wall-mount-fiber-enclosures",
+          "estimatedSKUs": "12-18",
+          "priceRange": "$5-$453",
+          "topProducts": [
+            "Wall-Mount FTTH Box 4-8 Splice IP65",
+            "Wall-Mount Enclosure 24-Port Metal Lockable",
+            "Wall-Mount Enclosure 72-144 Splice Ring-Cut",
+            "Steel Cabinet Lockable"
+          ]
+        },
+        {
+          "name": "LGX Cassettes & MPO Modules",
+          "slug": "lgx-cassettes-mpo-modules",
+          "estimatedSKUs": "12-18",
+          "priceRange": "$45-$1,100",
+          "topProducts": [
+            "MPO-to-LC LGX Cassette 12F OM4",
+            "MPO-to-LC LGX Cassette 12F OS2",
+            "LC Duplex LGX Cassette 24F OS2",
+            "MPO-to-LC Cassette 24F OM4"
+          ]
+        },
+        {
+          "name": "Adapters & Couplers",
+          "slug": "adapters-couplers",
+          "estimatedSKUs": "40-55",
+          "priceRange": "$0.80-$15",
+          "topProducts": [
+            "LC-LC Duplex SM Adapter 10-pk",
+            "LC-LC Duplex MM Adapter 10-pk",
+            "SC-SC Simplex SM Adapter 10-pk",
+            "SC/APC-SC/APC Simplex Adapter 10-pk",
+            "MPO/MTP Adapter Key-Up/Key-Down"
+          ]
+        },
+        {
+          "name": "Attenuators (Fixed & Variable)",
+          "slug": "attenuators",
+          "estimatedSKUs": "50-60",
+          "priceRange": "$3-$120",
+          "topProducts": [
+            "Fixed Attenuator LC/UPC 5dB 5-pk",
+            "Fixed Attenuator SC/UPC 10dB 5-pk",
+            "Fixed Attenuator LC/UPC 3dB 5-pk",
+            "Inline Attenuator LC/UPC 10dB",
+            "Variable VOA LC 1-30dB"
+          ]
+        },
+        {
+          "name": "Splice Closures (Dome & Inline)",
+          "slug": "splice-closures",
+          "estimatedSKUs": "15-20",
+          "priceRange": "$25-$500",
+          "topProducts": [
+            "Dome Splice Closure Small 48F",
+            "Inline Splice Closure Small 24F",
+            "Dome Splice Closure Medium 144F",
+            "Inline Splice Closure Medium 144F"
+          ]
+        },
+        {
+          "name": "Splice Trays & Protectors",
+          "slug": "splice-trays-protectors",
+          "estimatedSKUs": "10-15",
+          "priceRange": "$3-$40",
+          "topProducts": [
+            "Splice Tray 12F 10-pk",
+            "Splice Tray 24F",
+            "Heat Shrink Splice Protectors 100-pk",
+            "Mechanical Splice Protectors 50-pk"
+          ]
+        },
+        {
+          "name": "Cable Management",
+          "slug": "cable-management",
+          "estimatedSKUs": "15-20",
+          "priceRange": "$5-$200",
+          "topProducts": [
+            "Horizontal Cable Manager 1U",
+            "D-Rings 10-pk",
+            "Velcro Cable Ties 100-pk",
+            "Slack Storage Brackets",
+            "Vertical Cable Manager 42U"
+          ]
+        },
+        {
+          "name": "Racks & Cabinets",
+          "slug": "racks-cabinets",
+          "estimatedSKUs": "12-18",
+          "priceRange": "$50-$400",
+          "topProducts": [
+            "Open Frame 2-Post Rack 42U",
+            "Wall-Mount Cabinet 6U",
+            "Wall-Mount Cabinet 9U",
+            "Rack Shelf 1U",
+            "Rack-Mount PDU Basic 8-Outlet"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTTH / Broadband",
+      "slug": "ftth-broadband",
+      "icon": "home",
+      "badge": "BEAD",
+      "subcategories": [
+        {
+          "name": "FTTH Drop Cables",
+          "slug": "ftth-drop-cables",
+          "estimatedSKUs": "10-15",
+          "priceRange": "$0.04-$50",
+          "topProducts": [
+            "Flat Drop Cable 1F G.657A2 Toneable",
+            "Pre-Connectorized Drop SC/APC 30m",
+            "Flat Drop Cable 2F Figure-8",
+            "Armored Drop Cable 1F",
+            "Round Drop Cable 1-2F Indoor MDU"
+          ]
+        },
+        {
+          "name": "PLC Splitters",
+          "slug": "plc-splitters",
+          "estimatedSKUs": "12-18",
+          "priceRange": "$8-$150",
+          "topProducts": [
+            "PLC Splitter 1x8 LGX Module SC/APC",
+            "PLC Splitter 1x16 LGX Module SC/APC",
+            "PLC Splitter 1x32 LGX Module SC/APC",
+            "PLC Splitter 1x4 Mini Module"
+          ]
+        },
+        {
+          "name": "Fiber Distribution Hubs (FDH)",
+          "slug": "fiber-distribution-hubs",
+          "estimatedSKUs": "6-10",
+          "priceRange": "$200-$4,000",
+          "topProducts": [
+            "Small FDH Pedestal 48-96F",
+            "Medium FDH Cabinet 144-288F",
+            "Large FDH Cabinet 432-576F+"
+          ]
+        },
+        {
+          "name": "Network Access Points (NAP)",
+          "slug": "network-access-points",
+          "estimatedSKUs": "8-12",
+          "priceRange": "$30-$200",
+          "topProducts": [
+            "Aerial NAP Small 4-8 SC/APC",
+            "Aerial NAP Large 12-16 SC/APC",
+            "MDU NAP Terminal 4-16 Port Wall-Mount",
+            "Pedestal NAP 4-12 Port"
+          ]
+        },
+        {
+          "name": "FTTH Rosettes & Wall Outlets",
+          "slug": "ftth-rosettes-wall-outlets",
+          "estimatedSKUs": "5-8",
+          "priceRange": "$3-$15",
+          "topProducts": [
+            "FTTH Rosette Wall Outlet SC/APC",
+            "Fiber Indoor Cable ONT to Wall Outlet White",
+            "Dual-Port FTTH Rosette"
+          ]
+        },
+        {
+          "name": "FTTH Accessories (Clamps, Hooks, Brackets)",
+          "slug": "ftth-accessories",
+          "estimatedSKUs": "10-15",
+          "priceRange": "$0.50-$20",
+          "topProducts": [
+            "FTTH Clamps Stainless Steel",
+            "Slack Storage Brackets",
+            "P-Clamps Cable Hooks",
+            "Cable Tension Clamps"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Test Equipment & Tools",
+      "slug": "test-equipment-tools",
+      "icon": "wrench",
+      "subcategories": [
+        {
+          "name": "Visual Fault Locators (VFL)",
+          "slug": "visual-fault-locators",
+          "estimatedSKUs": "6-10",
+          "priceRange": "$17-$60",
+          "topProducts": [
+            "VFL Pen 10mW CW/Flash",
+            "VFL Pen 5mW Basic",
+            "VFL Pen 30mW Extended Range",
+            "VFL + Power Meter Combo Kit"
+          ]
+        },
+        {
+          "name": "Optical Power Meters",
+          "slug": "optical-power-meters",
+          "estimatedSKUs": "6-10",
+          "priceRange": "$30-$452",
+          "topProducts": [
+            "Basic OPM Handheld -70 to +10 dBm",
+            "Pro OPM Data Logging Multi-Wavelength",
+            "PON Power Meter 1310/1490/1550nm"
+          ]
+        },
+        {
+          "name": "OTDRs",
+          "slug": "otdrs",
+          "estimatedSKUs": "5-8",
+          "priceRange": "$230-$31,000+",
+          "topProducts": [
+            "Mini OTDR Basic 1310/1550nm 20km",
+            "Mid-Range OTDR Dual Wavelength VFL/OPM",
+            "Professional OTDR Certification-Grade"
+          ]
+        },
+        {
+          "name": "Fiber Inspection Scopes",
+          "slug": "fiber-inspection-scopes",
+          "estimatedSKUs": "5-8",
+          "priceRange": "$227-$2,500",
+          "topProducts": [
+            "Fiber Inspection Scope 200x Handheld",
+            "Fiber Inspection Scope 400x",
+            "Wireless Fiber Microscope WiFi",
+            "Video Inspection Probe USB"
+          ]
+        },
+        {
+          "name": "Fiber Identifiers",
+          "slug": "fiber-identifiers",
+          "estimatedSKUs": "3-5",
+          "priceRange": "$425-$2,500",
+          "topProducts": [
+            "Fiber Identifier Live Detection",
+            "Fiber Identifier with Power Meter"
+          ]
+        },
+        {
+          "name": "Light Sources",
+          "slug": "light-sources",
+          "estimatedSKUs": "3-5",
+          "priceRange": "$200-$465",
+          "topProducts": [
+            "SM/MM Calibrated Light Source",
+            "Reference Test Cables Launch 1m-5m"
+          ]
+        },
+        {
+          "name": "Cleaning Equipment",
+          "slug": "cleaning-equipment",
+          "estimatedSKUs": "12-18",
+          "priceRange": "$8-$610",
+          "topProducts": [
+            "One-Click Cleaner LC 1.25mm",
+            "One-Click Cleaner SC 2.5mm",
+            "Cassette Reel Cleaner",
+            "IPA Cleaning Swabs 2.5mm 100-pk",
+            "Complete Cleaning Kit with VFL"
+          ]
+        },
+        {
+          "name": "Connectors & Termination Tools",
+          "slug": "connectors-termination-tools",
+          "estimatedSKUs": "15-20",
+          "priceRange": "$5-$18 each",
+          "topProducts": [
+            "AFL FASTConnect SC/APC 6-pk",
+            "AFL FASTConnect LC/UPC 6-pk",
+            "Splice-On Connector LC SM",
+            "Mechanical Splice Connector"
+          ]
+        },
+        {
+          "name": "Stripping & Preparation Tools",
+          "slug": "stripping-preparation-tools",
+          "estimatedSKUs": "10-15",
+          "priceRange": "$5-$1,500",
+          "topProducts": [
+            "Budget Fiber Cleaver 16-Position",
+            "Buffer Tube Stripper 250/900um",
+            "Kevlar Scissors Ceramic Blade",
+            "Jacket Stripper",
+            "Fiber Scribe Scoring Tool"
+          ]
+        },
+        {
+          "name": "Fusion Splicers",
+          "slug": "fusion-splicers",
+          "estimatedSKUs": "4-8",
+          "priceRange": "$1,500-$15,000+",
+          "topProducts": [
+            "Budget Fusion Splicer Core Alignment",
+            "Professional Fusion Splicer Fujikura/Sumitomo"
+          ]
+        },
+        {
+          "name": "Labels & Identification",
+          "slug": "labels-identification",
+          "estimatedSKUs": "6-10",
+          "priceRange": "$5-$300",
+          "topProducts": [
+            "Fiber Cable Labels Self-Laminating 100-pk",
+            "Patch Panel Labels Sheet",
+            "Color-Coded Port Tags",
+            "Portable Label Printer"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bundles & Kits",
+      "slug": "bundles-kits",
+      "icon": "gift",
+      "badge": "NEW",
+      "subcategories": [
+        {
+          "name": "FTTH Installer Kit",
+          "slug": "ftth-installer-kit",
+          "estimatedSKUs": null,
+          "priceRange": "$89-$149",
+          "topProducts": [
+            "Pre-Connectorized Drop Cable SC/APC 30m",
+            "FTTH Rosette Wall Outlet",
+            "Indoor Patch Cord SC/APC to LC/UPC 2m",
+            "SC/APC Adapters",
+            "Cable Clamps + Splice Protectors + Wipes"
+          ]
+        },
+        {
+          "name": "Data Center Starter Pack",
+          "slug": "data-center-starter-pack",
+          "estimatedSKUs": null,
+          "priceRange": "$249-$399",
+          "topProducts": [
+            "24-Port LC Panel Loaded SM",
+            "12x LC-LC OS2 Patch Cords 2m",
+            "4x 10G SFP+ SR Transceivers Cisco",
+            "1U Cable Manager + Adapters + Cleaner"
+          ]
+        },
+        {
+          "name": "Technician Tool Kit",
+          "slug": "technician-tool-kit",
+          "estimatedSKUs": null,
+          "priceRange": "$199-$349",
+          "topProducts": [
+            "VFL 10mW",
+            "Optical Power Meter",
+            "One-Click Cleaners LC + SC",
+            "Buffer Tube Stripper + Kevlar Scissors",
+            "Carry Case"
+          ]
+        },
+        {
+          "name": "Cleaning & Maintenance Kit",
+          "slug": "cleaning-maintenance-kit",
+          "estimatedSKUs": null,
+          "priceRange": "$79-$129",
+          "topProducts": [
+            "2x One-Click Cleaner LC",
+            "2x One-Click Cleaner SC",
+            "Cassette Reel Cleaner",
+            "IPA Cleaning Swab Packs + Wipes + Case"
+          ]
+        },
+        {
+          "name": "Enterprise Network Kit",
+          "slug": "enterprise-network-kit",
+          "estimatedSKUs": null,
+          "priceRange": "$499-$799",
+          "topProducts": [
+            "48-Port LC Panel Loaded SM",
+            "24x LC-LC OS2 Patch Cords 3m",
+            "1000ft 12F SM OS2 Riser Cable",
+            "8x 10G SFP+ LR Transceivers Cisco",
+            "Cable Managers + Cleaning Kit + Labels"
+          ]
+        }
+      ]
+    }
+  ]
+}

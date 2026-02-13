@@ -1,0 +1,554 @@
+{
+  "skus": [
+    {
+      "rank": 1,
+      "sku": "NXL-PC-LCLC-DX-OS2-1M",
+      "name": "LC-LC Duplex OS2 SM Patch Cord 1m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "LC/UPC",
+        "connectorB": "LC/UPC",
+        "fiberType": "OS2 9/125 Singlemode",
+        "length": "1m",
+        "duplex": true,
+        "jacketColor": "Yellow"
+      },
+      "fscomPrice": "$2.80-$4.00",
+      "nexlumeTargetPrice": "$3.00-$4.50",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 2,
+      "sku": "NXL-PC-LCLC-DX-OS2-2M",
+      "name": "LC-LC Duplex OS2 SM Patch Cord 2m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "LC/UPC",
+        "connectorB": "LC/UPC",
+        "fiberType": "OS2 9/125 Singlemode",
+        "length": "2m",
+        "duplex": true,
+        "jacketColor": "Yellow"
+      },
+      "fscomPrice": "$3.00-$4.50",
+      "nexlumeTargetPrice": "$3.50-$5.00",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 3,
+      "sku": "NXL-PC-LCLC-DX-OS2-3M",
+      "name": "LC-LC Duplex OS2 SM Patch Cord 3m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "LC/UPC",
+        "connectorB": "LC/UPC",
+        "fiberType": "OS2 9/125 Singlemode",
+        "length": "3m",
+        "duplex": true,
+        "jacketColor": "Yellow"
+      },
+      "fscomPrice": "$3.50-$5.00",
+      "nexlumeTargetPrice": "$4.00-$5.50",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 4,
+      "sku": "NXL-PC-LCLC-DX-OM4-1M",
+      "name": "LC-LC Duplex OM4 MM Patch Cord 1m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "LC/UPC",
+        "connectorB": "LC/UPC",
+        "fiberType": "OM4 50/125 Multimode",
+        "length": "1m",
+        "duplex": true,
+        "jacketColor": "Aqua"
+      },
+      "fscomPrice": "$3.50-$5.00",
+      "nexlumeTargetPrice": "$4.00-$6.00",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 5,
+      "sku": "NXL-PC-LCLC-DX-OM4-2M",
+      "name": "LC-LC Duplex OM4 MM Patch Cord 2m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "LC/UPC",
+        "connectorB": "LC/UPC",
+        "fiberType": "OM4 50/125 Multimode",
+        "length": "2m",
+        "duplex": true,
+        "jacketColor": "Aqua"
+      },
+      "fscomPrice": "$3.80-$5.50",
+      "nexlumeTargetPrice": "$4.50-$6.50",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 6,
+      "sku": "NXL-PC-LCLC-DX-OM4-3M",
+      "name": "LC-LC Duplex OM4 MM Patch Cord 3m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "LC/UPC",
+        "connectorB": "LC/UPC",
+        "fiberType": "OM4 50/125 Multimode",
+        "length": "3m",
+        "duplex": true,
+        "jacketColor": "Aqua"
+      },
+      "fscomPrice": "$4.00-$6.00",
+      "nexlumeTargetPrice": "$5.00-$7.00",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 7,
+      "sku": "NXL-PC-LCLC-DX-OS2-5M",
+      "name": "LC-LC Duplex OS2 SM Patch Cord 5m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "LC/UPC",
+        "connectorB": "LC/UPC",
+        "fiberType": "OS2 9/125 Singlemode",
+        "length": "5m",
+        "duplex": true,
+        "jacketColor": "Yellow"
+      },
+      "fscomPrice": "$4.50-$6.50",
+      "nexlumeTargetPrice": "$5.00-$7.00",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 8,
+      "sku": "NXL-PC-SCSC-DX-OS2-1M",
+      "name": "SC-SC Duplex OS2 SM Patch Cord 1m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "SC/UPC",
+        "connectorB": "SC/UPC",
+        "fiberType": "OS2 9/125 Singlemode",
+        "length": "1m",
+        "duplex": true,
+        "jacketColor": "Yellow"
+      },
+      "fscomPrice": "$2.80-$4.00",
+      "nexlumeTargetPrice": "$3.00-$4.50",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 9,
+      "sku": "NXL-PC-SCSC-DX-OS2-3M",
+      "name": "SC-SC Duplex OS2 SM Patch Cord 3m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "SC/UPC",
+        "connectorB": "SC/UPC",
+        "fiberType": "OS2 9/125 Singlemode",
+        "length": "3m",
+        "duplex": true,
+        "jacketColor": "Yellow"
+      },
+      "fscomPrice": "$3.50-$5.00",
+      "nexlumeTargetPrice": "$4.00-$6.00",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 10,
+      "sku": "NXL-PC-SCLC-DX-OS2-2M",
+      "name": "SC-LC Duplex OS2 SM Patch Cord 2m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "SC/UPC",
+        "connectorB": "LC/UPC",
+        "fiberType": "OS2 9/125 Singlemode",
+        "length": "2m",
+        "duplex": true,
+        "jacketColor": "Yellow"
+      },
+      "fscomPrice": "$3.00-$4.50",
+      "nexlumeTargetPrice": "$3.50-$5.50",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 11,
+      "sku": "NXL-PC-LCLC-DX-OM4-5M",
+      "name": "LC-LC Duplex OM4 MM Patch Cord 5m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "LC/UPC",
+        "connectorB": "LC/UPC",
+        "fiberType": "OM4 50/125 Multimode",
+        "length": "5m",
+        "duplex": true,
+        "jacketColor": "Aqua"
+      },
+      "fscomPrice": "$5.00-$7.00",
+      "nexlumeTargetPrice": "$5.50-$8.00",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 12,
+      "sku": "NXL-PC-LCLC-DX-OS2-10M",
+      "name": "LC-LC Duplex OS2 SM Patch Cord 10m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "LC/UPC",
+        "connectorB": "LC/UPC",
+        "fiberType": "OS2 9/125 Singlemode",
+        "length": "10m",
+        "duplex": true,
+        "jacketColor": "Yellow"
+      },
+      "fscomPrice": "$6.50-$9.00",
+      "nexlumeTargetPrice": "$7.00-$10.00",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 13,
+      "sku": "NXL-PC-SCAPC-SX-OS2-1M",
+      "name": "SC/APC-SC/APC Simplex OS2 Patch Cord 1m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "SC/APC",
+        "connectorB": "SC/APC",
+        "fiberType": "OS2 9/125 Singlemode",
+        "length": "1m",
+        "duplex": false,
+        "jacketColor": "Yellow"
+      },
+      "fscomPrice": "$3.00-$5.00",
+      "nexlumeTargetPrice": "$4.00-$6.00",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 14,
+      "sku": "NXL-PC-SCAPC-SX-OS2-3M",
+      "name": "SC/APC-SC/APC Simplex OS2 Patch Cord 3m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "SC/APC",
+        "connectorB": "SC/APC",
+        "fiberType": "OS2 9/125 Singlemode",
+        "length": "3m",
+        "duplex": false,
+        "jacketColor": "Yellow"
+      },
+      "fscomPrice": "$3.50-$5.50",
+      "nexlumeTargetPrice": "$5.00-$7.00",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 15,
+      "sku": "NXL-PC-LCLC-DX-OM3-2M",
+      "name": "LC-LC Duplex OM3 MM Patch Cord 2m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "LC/UPC",
+        "connectorB": "LC/UPC",
+        "fiberType": "OM3 50/125 Multimode",
+        "length": "2m",
+        "duplex": true,
+        "jacketColor": "Aqua"
+      },
+      "fscomPrice": "$2.80-$4.50",
+      "nexlumeTargetPrice": "$3.50-$5.50",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 16,
+      "sku": "NXL-PC-LCLC-DX-OS2-15M",
+      "name": "LC-LC Duplex OS2 SM Patch Cord 15m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "LC/UPC",
+        "connectorB": "LC/UPC",
+        "fiberType": "OS2 9/125 Singlemode",
+        "length": "15m",
+        "duplex": true,
+        "jacketColor": "Yellow"
+      },
+      "fscomPrice": "$8.00-$12.00",
+      "nexlumeTargetPrice": "$10.00-$14.00",
+      "margin": "40-55%",
+      "tier": "A"
+    },
+    {
+      "rank": 17,
+      "sku": "NXL-MPO12-OM4-FF-3M",
+      "name": "MPO-12 OM4 Trunk Cable Female-Female 3m",
+      "category": "MPO/MTP Trunk Cables",
+      "specs": {
+        "connectorA": "MPO-12 Female",
+        "connectorB": "MPO-12 Female",
+        "fiberType": "OM4 50/125 Multimode",
+        "fiberCount": 12,
+        "length": "3m",
+        "jacketColor": "Aqua"
+      },
+      "fscomPrice": "$25.00-$45.00",
+      "nexlumeTargetPrice": "$28.00-$50.00",
+      "margin": "30-50%",
+      "tier": "A"
+    },
+    {
+      "rank": 18,
+      "sku": "NXL-MPO12-OS2-FF-5M",
+      "name": "MPO-12 OS2 Trunk Cable Female-Female 5m",
+      "category": "MPO/MTP Trunk Cables",
+      "specs": {
+        "connectorA": "MPO-12 Female",
+        "connectorB": "MPO-12 Female",
+        "fiberType": "OS2 9/125 Singlemode",
+        "fiberCount": 12,
+        "length": "5m",
+        "jacketColor": "Yellow"
+      },
+      "fscomPrice": "$30.00-$55.00",
+      "nexlumeTargetPrice": "$35.00-$60.00",
+      "margin": "30-50%",
+      "tier": "A"
+    },
+    {
+      "rank": 19,
+      "sku": "NXL-MPO-LC-BO-12F-OM4-1M",
+      "name": "MPO-to-LC Breakout Cable 12F OM4 1m",
+      "category": "MPO/MTP Trunk Cables",
+      "specs": {
+        "connectorA": "MPO-12 Female",
+        "connectorB": "6x LC Duplex",
+        "fiberType": "OM4 50/125 Multimode",
+        "fiberCount": 12,
+        "length": "1m",
+        "jacketColor": "Aqua"
+      },
+      "fscomPrice": "$30.00-$50.00",
+      "nexlumeTargetPrice": "$35.00-$55.00",
+      "margin": "30-50%",
+      "tier": "A"
+    },
+    {
+      "rank": 20,
+      "sku": "NXL-PC-SCSC-DX-OM3-3M",
+      "name": "SC-SC Duplex OM3 MM Patch Cord 3m",
+      "category": "Patch Cords",
+      "specs": {
+        "connectorA": "SC/UPC",
+        "connectorB": "SC/UPC",
+        "fiberType": "OM3 50/125 Multimode",
+        "length": "3m",
+        "duplex": true,
+        "jacketColor": "Aqua"
+      },
+      "fscomPrice": "$3.00-$5.00",
+      "nexlumeTargetPrice": "$4.00-$6.00",
+      "margin": "40-60%",
+      "tier": "A"
+    },
+    {
+      "rank": 21,
+      "sku": "NXL-SFP-10G-SR-CISCO",
+      "name": "10G SFP+ SR Cisco SFP-10G-SR Compatible",
+      "category": "Transceivers",
+      "specs": {
+        "speed": "10 Gbps",
+        "formFactor": "SFP+",
+        "fiberMode": "Multimode",
+        "reach": "300m",
+        "wavelength": "850nm",
+        "compatibleBrand": "Cisco",
+        "equivalentOEM": "SFP-10G-SR"
+      },
+      "fscomPrice": "$22.00-$35.00",
+      "nexlumeTargetPrice": "$25.00-$40.00",
+      "margin": "70-90%",
+      "tier": "A"
+    },
+    {
+      "rank": 22,
+      "sku": "NXL-SFP-10G-LR-CISCO",
+      "name": "10G SFP+ LR Cisco SFP-10G-LR Compatible",
+      "category": "Transceivers",
+      "specs": {
+        "speed": "10 Gbps",
+        "formFactor": "SFP+",
+        "fiberMode": "Singlemode",
+        "reach": "10km",
+        "wavelength": "1310nm",
+        "compatibleBrand": "Cisco",
+        "equivalentOEM": "SFP-10G-LR"
+      },
+      "fscomPrice": "$35.00-$55.00",
+      "nexlumeTargetPrice": "$40.00-$60.00",
+      "margin": "70-90%",
+      "tier": "A"
+    },
+    {
+      "rank": 23,
+      "sku": "NXL-SFP-1G-LX-CISCO",
+      "name": "1G SFP LX Cisco GLC-LH-SMD Compatible",
+      "category": "Transceivers",
+      "specs": {
+        "speed": "1 Gbps",
+        "formFactor": "SFP",
+        "fiberMode": "Singlemode",
+        "reach": "10km",
+        "wavelength": "1310nm",
+        "compatibleBrand": "Cisco",
+        "equivalentOEM": "GLC-LH-SMD"
+      },
+      "fscomPrice": "$18.00-$25.00",
+      "nexlumeTargetPrice": "$20.00-$35.00",
+      "margin": "70-95%",
+      "tier": "A"
+    },
+    {
+      "rank": 24,
+      "sku": "NXL-SFP-1G-SX-CISCO",
+      "name": "1G SFP SX Cisco GLC-SX-MM Compatible",
+      "category": "Transceivers",
+      "specs": {
+        "speed": "1 Gbps",
+        "formFactor": "SFP",
+        "fiberMode": "Multimode",
+        "reach": "550m",
+        "wavelength": "850nm",
+        "compatibleBrand": "Cisco",
+        "equivalentOEM": "GLC-SX-MM"
+      },
+      "fscomPrice": "$15.00-$22.00",
+      "nexlumeTargetPrice": "$15.00-$30.00",
+      "margin": "70-95%",
+      "tier": "A"
+    },
+    {
+      "rank": 25,
+      "sku": "NXL-SFP-10G-SR-ARISTA",
+      "name": "10G SFP+ SR Arista Compatible",
+      "category": "Transceivers",
+      "specs": {
+        "speed": "10 Gbps",
+        "formFactor": "SFP+",
+        "fiberMode": "Multimode",
+        "reach": "300m",
+        "wavelength": "850nm",
+        "compatibleBrand": "Arista",
+        "equivalentOEM": "SFP-10G-SR"
+      },
+      "fscomPrice": "$22.00-$35.00",
+      "nexlumeTargetPrice": "$25.00-$40.00",
+      "margin": "70-90%",
+      "tier": "A"
+    },
+    {
+      "rank": 26,
+      "sku": "NXL-SFP-10G-LR-JUNIPER",
+      "name": "10G SFP+ LR Juniper Compatible",
+      "category": "Transceivers",
+      "specs": {
+        "speed": "10 Gbps",
+        "formFactor": "SFP+",
+        "fiberMode": "Singlemode",
+        "reach": "10km",
+        "wavelength": "1310nm",
+        "compatibleBrand": "Juniper",
+        "equivalentOEM": "EX-SFP-10GE-LR"
+      },
+      "fscomPrice": "$35.00-$55.00",
+      "nexlumeTargetPrice": "$40.00-$65.00",
+      "margin": "70-90%",
+      "tier": "A"
+    },
+    {
+      "rank": 27,
+      "sku": "NXL-SFP28-25G-SR-CISCO",
+      "name": "25G SFP28 SR Cisco Compatible",
+      "category": "Transceivers",
+      "specs": {
+        "speed": "25 Gbps",
+        "formFactor": "SFP28",
+        "fiberMode": "Multimode",
+        "reach": "100m",
+        "wavelength": "850nm",
+        "compatibleBrand": "Cisco",
+        "equivalentOEM": "SFP-25G-SR-S"
+      },
+      "fscomPrice": "$25.00-$45.00",
+      "nexlumeTargetPrice": "$30.00-$55.00",
+      "margin": "70-85%",
+      "tier": "A"
+    },
+    {
+      "rank": 28,
+      "sku": "NXL-QSFP28-100G-SR4-CISCO",
+      "name": "100G QSFP28 SR4 Cisco Compatible",
+      "category": "Transceivers",
+      "specs": {
+        "speed": "100 Gbps",
+        "formFactor": "QSFP28",
+        "fiberMode": "Multimode",
+        "reach": "100m",
+        "wavelength": "850nm",
+        "compatibleBrand": "Cisco",
+        "equivalentOEM": "QSFP-100G-SR4-S"
+      },
+      "fscomPrice": "$180.00-$350.00",
+      "nexlumeTargetPrice": "$200.00-$380.00",
+      "margin": "70-85%",
+      "tier": "A"
+    },
+    {
+      "rank": 29,
+      "sku": "NXL-QSFP28-100G-LR4-CISCO",
+      "name": "100G QSFP28 LR4 Cisco Compatible",
+      "category": "Transceivers",
+      "specs": {
+        "speed": "100 Gbps",
+        "formFactor": "QSFP28",
+        "fiberMode": "Singlemode",
+        "reach": "10km",
+        "wavelength": "1310nm",
+        "compatibleBrand": "Cisco",
+        "equivalentOEM": "QSFP-100G-LR4-S"
+      },
+      "fscomPrice": "$250.00-$450.00",
+      "nexlumeTargetPrice": "$300.00-$480.00",
+      "margin": "65-80%",
+      "tier": "A"
+    },
+    {
+      "rank": 30,
+      "sku": "NXL-QSFP-40G-SR4-CISCO",
+      "name": "40G QSFP+ SR4 Cisco Compatible",
+      "category": "Transceivers",
+      "specs": {
+        "speed": "40 Gbps",
+        "formFactor": "QSFP+",
+        "fiberMode": "Multimode",
+        "reach": "150m",
+        "wavelength": "850nm",
+        "compatibleBrand": "Cisco",
+        "equivalentOEM": "QSFP-40G-SR4"
+      },
+      "fscomPrice": "$60.00-$120.00",
+      "nexlumeTargetPrice": "$80.00-$140.00",
+      "margin": "70-85%",
+      "tier": "A"
+    }
+  ]
+}
