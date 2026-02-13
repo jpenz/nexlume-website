@@ -9,8 +9,10 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { ProductCard } from "@/components/shop/product-card";
+import { FamilyCard } from "@/components/shop/family-card";
 import { SHOP_CATEGORIES, TOP_SKUS } from "@/data/shop-catalog";
 import { FULL_CATALOG } from "@/data/full-catalog";
+import { groupIntoFamilies } from "@/lib/product-utils";
 
 export default function CategoryPage() {
   const params = useParams();
@@ -20,6 +22,11 @@ export default function CategoryPage() {
 
   const category = SHOP_CATEGORIES.find((c) => c.slug === slug);
   const products = FULL_CATALOG.filter((p) => p.category === slug);
+  const families = groupIntoFamilies(products);
+  const nonFamilyProducts = products.filter((p) => !p.name.match(/—\s*\d+(?:\.\d+)?m$/));
+
+  // For patch cords, show families; for others, show individual products
+  const isFamilyCategory = slug === "patch-cords";
 
   const filteredProducts = searchQuery
     ? products.filter(
@@ -27,7 +34,7 @@ export default function CategoryPage() {
           p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
           p.sku.toLowerCase().includes(searchQuery.toLowerCase())
       )
-    : products;
+    : nonFamilyProducts;
 
   return (
     <div className="min-h-screen">
@@ -106,7 +113,7 @@ export default function CategoryPage() {
           <div>
             <div className="flex items-center justify-between mb-6">
               <p className="text-sm text-neutral-500">
-                {filteredProducts.length} products
+                {isFamilyCategory ? `${families.length} product families (${products.length} SKUs)` : `${filteredProducts.length} products`}
                 {category && <span className="text-neutral-600"> of {category.estimatedSKUs} total</span>}
               </p>
               <div className="flex items-center gap-2">
@@ -125,22 +132,30 @@ export default function CategoryPage() {
               </div>
             </div>
 
-            {filteredProducts.length > 0 ? (
-              <div className={
-                viewMode === "grid"
-                  ? "grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4"
-                  : "flex flex-col gap-3"
-              }>
-                {filteredProducts.map((product, i) => (
-                  <motion.div
-                    key={product.sku}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: i * 0.03 }}
-                  >
-                    <ProductCard product={product} />
-                  </motion.div>
-                ))}
+            {(isFamilyCategory ? families.length > 0 : filteredProducts.length > 0) ? (
+              <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
+                {isFamilyCategory
+                  ? families.map((family, i) => (
+                      <motion.div
+                        key={family.key}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: i * 0.03 }}
+                      >
+                        <FamilyCard family={family} />
+                      </motion.div>
+                    ))
+                  : filteredProducts.map((product, i) => (
+                      <motion.div
+                        key={product.sku}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: i * 0.03 }}
+                      >
+                        <ProductCard product={product} />
+                      </motion.div>
+                    ))
+                }
               </div>
             ) : (
               <div className="text-center py-20">
