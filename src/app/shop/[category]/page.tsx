@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { ProductCard } from "@/components/shop/product-card";
 import { SHOP_CATEGORIES, TOP_SKUS } from "@/data/shop-catalog";
+import { FULL_CATALOG } from "@/data/full-catalog";
 
 export default function CategoryPage() {
   const params = useParams();
@@ -18,7 +19,7 @@ export default function CategoryPage() {
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
 
   const category = SHOP_CATEGORIES.find((c) => c.slug === slug);
-  const products = TOP_SKUS.filter((p) => p.category === slug);
+  const products = FULL_CATALOG.filter((p) => p.category === slug);
 
   const filteredProducts = searchQuery
     ? products.filter(

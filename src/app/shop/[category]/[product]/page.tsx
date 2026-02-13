@@ -23,7 +23,9 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
+import { ProductImage } from "@/components/shop/product-image";
 import { TOP_SKUS } from "@/data/shop-catalog";
+import { FULL_CATALOG } from "@/data/full-catalog";
 
 export default function ProductDetailPage() {
   const params = useParams();
@@ -31,7 +33,8 @@ export default function ProductDetailPage() {
   const [activeTab, setActiveTab] = useState<"specs" | "docs" | "reviews">("specs");
 
   // Find product by SKU fragment in URL
-  const product = TOP_SKUS.find(
+  const allProducts = [...FULL_CATALOG, ...TOP_SKUS];
+  const product = allProducts.find(
     (p) => p.sku.toLowerCase().includes(String(params.product || "").toLowerCase())
   ) || TOP_SKUS[0]; // fallback to first product for demo
 
@@ -39,7 +42,7 @@ export default function ProductDetailPage() {
     ? Math.round(((product.compareAt - product.price) / product.compareAt) * 100)
     : 0;
 
-  const relatedProducts = TOP_SKUS.filter(
+  const relatedProducts = allProducts.filter(
     (p) => p.category === product.category && p.sku !== product.sku
   ).slice(0, 4);
 
@@ -64,8 +67,14 @@ export default function ProductDetailPage() {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Left: Product Image */}
           <div>
-            <div className="bg-[#141414] border border-[#262626] rounded-2xl p-12 flex items-center justify-center aspect-square relative">
-              <Cable className="w-32 h-32 text-neutral-700" />
+            <div className="bg-[#141414] border border-[#262626] rounded-2xl overflow-hidden aspect-square relative">
+              <ProductImage
+                category={product.category}
+                subcategory={product.subcategory}
+                specs={product.specs}
+                size="lg"
+                className="w-full h-full"
+              />
               {product.badge && (
                 <div className="absolute top-4 left-4">
                   <Badge variant="indigo">{product.badge}</Badge>

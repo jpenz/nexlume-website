@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ShoppingCart, Zap, Check } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { ProductImage } from "@/components/shop/product-image";
 import type { ShopProduct } from "@/data/shop-catalog";
 
 const badgeVariant: Record<string, "indigo" | "secondary"> = {
@@ -21,11 +22,14 @@ export function ProductCard({ product }: { product: ShopProduct }) {
 
   return (
     <div className="group bg-[#141414] border border-[#262626] rounded-xl hover:border-indigo-500/40 transition-all">
-      {/* Image placeholder */}
-      <div className="h-40 bg-[#1A1A1A] rounded-t-xl flex items-center justify-center relative">
-        <div className="w-16 h-16 rounded-full bg-[#262626] flex items-center justify-center">
-          <span className="text-2xl text-neutral-600">📦</span>
-        </div>
+      {/* Product Image */}
+      <div className="h-40 rounded-t-xl relative overflow-hidden">
+        <ProductImage
+          category={product.category}
+          subcategory={product.subcategory}
+          specs={product.specs}
+          className="w-full h-full"
+        />
         {product.badge && (
           <div className="absolute top-3 left-3">
             <Badge variant={badgeVariant[product.badge] || "secondary"} className="text-xs">
